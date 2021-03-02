@@ -24,7 +24,7 @@
   evtSource.onmessage = function(e) {
     var newElement = document.createElement("li");
 
-    newElement.textContent = "message: " + e.data;
+    newElement.innerText = "message: " + e.data;
     eventList.appendChild(newElement);
   };
 
